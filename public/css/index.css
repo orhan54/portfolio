@@ -1,8 +1,14 @@
 body {
+  background-image: url('../images/HD-wallpaper.jpg');
   margin: 0;
   font-family: "Segoe UI", Arial, sans-serif;
   background-color: #f4f6fa;
   color: #333;
+
+  /* Propriétés pour centrer et ne pas répéter l'image */
+  background-repeat: no-repeat;
+  background-position: center center;
+  background-size: cover; /* optionnel : adapte l'image à la taille de l'écran */
 }
 
 header {
