@@ -1,6 +1,11 @@
+
+html, body {
+  height: 100%; /* Important pour que le body prenne toute la hauteur */
+  margin: 0;
+}
+
 body {
   background-image: url('../images/HD-wallpaper.jpg');
-  margin: 0;
   font-family: "Segoe UI", Arial, sans-serif;
   background-color: #f4f6fa;
   color: #333;
@@ -8,7 +13,7 @@ body {
   /* Propriétés pour centrer et ne pas répéter l'image */
   background-repeat: no-repeat;
   background-position: center center;
-  background-size: cover; /* optionnel : adapte l'image à la taille de l'écran */
+  background-size: cover; /* L'image s'adapte à l'écran */
 }
 
 header {
@@ -75,9 +80,13 @@ main {
 }
 
 footer {
-  text-align: center;
-  padding: 20px;
+  position: fixed;
+  bottom: 0;
+  left: 0;
+  height: 60px;
+  width: 100%;
   background: #222;
   color: white;
-  margin-top: 40px;
+  text-align: center;
+  padding: 10px 0;
 }
