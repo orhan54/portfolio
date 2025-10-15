@@ -90,3 +90,63 @@ footer {
   text-align: center;
   padding: 10px 0;
 }
+
+main {
+  display: flex;
+  flex-wrap: wrap;
+  gap: 25px;
+  justify-content: center;
+  padding: 40px;
+}
+
+/* 💠 Style des cartes */
+.project {
+  background: rgba(0, 206, 209, 0.3); /* turquoise plus doux et translucide */
+  border-radius: 15px;
+  padding: 20px;
+  width: 320px;
+  text-align: center;
+  transition: all 0.3s ease;
+  border: 1px solid rgba(64, 224, 208, 0.4);
+  box-shadow: 0 4px 10px rgba(64, 224, 208, 0.4);
+  color: #ffffff; /* texte blanc lisible */
+}
+
+.project:hover {
+  box-shadow: 0 8px 25px rgba(64, 224, 208, 0.8);
+  transform: translateY(-5px);
+  background: rgba(0, 206, 209, 0.45); /* fond un peu plus intense au hover */
+}
+
+/* Titres */
+.project h2 {
+  color: #ffffff; /* blanc pur */
+  margin-bottom: 10px;
+  text-shadow: 0 1px 3px rgba(0, 0, 0, 0.3); /* lisibilité renforcée */
+}
+
+/* Texte */
+.project p {
+  color: #f0f0f0;
+  font-size: 15px;
+  line-height: 1.5;
+  margin-bottom: 15px;
+}
+
+/* Bouton / lien */
+.project .links a {
+  display: inline-block;
+  padding: 10px 20px;
+  background: #ffffff;
+  color: #008b8b; /* turquoise foncé */
+  text-decoration: none;
+  border-radius: 25px;
+  font-weight: 600;
+  transition: background 0.3s ease, transform 0.2s ease, color 0.3s ease;
+}
+
+.project .links a:hover {
+  background: #00ced1;
+  color: white;
+  transform: scale(1.05);
+}
