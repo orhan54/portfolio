@@ -8,7 +8,7 @@ html, body {
     font-family: "Segoe UI", Arial, sans-serif;
 }
 
-/* Fond d’écran pleine page */
+/* Fond d'écran pleine page */
 body {
     flex: 1;
     min-height: 100vh;
@@ -56,7 +56,7 @@ main {
     justify-content: center;
 }
 
-main h3 {
+main > h3 {
     width: 100%;
     padding: 20px;
     border-radius: 15px;
@@ -78,6 +78,11 @@ main h3 {
     border: 1px solid rgba(64, 224, 208, 0.4);
     box-shadow: 0 4px 10px rgba(64, 224, 208, 0.4);
     color: #ffffff;
+    
+    /* Flexbox pour alignement */
+    display: flex;
+    flex-direction: column;
+    min-height: 350px;
 }
 
 .project:hover {
@@ -97,6 +102,11 @@ main h3 {
     font-size: 15px;
     line-height: 1.5;
     margin-bottom: 15px;
+    flex-grow: 1; /* Le paragraphe prend l'espace disponible */
+}
+
+.project .links {
+    margin-top: auto; /* Pousse les liens vers le bas */
 }
 
 .project .links a {

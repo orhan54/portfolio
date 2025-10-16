@@ -1,0 +1,151 @@
+.lobster-regular {
+    font-family: "Lobster", sans-serif;
+    font-weight: 400;
+    font-style: normal;
+}
+
+h1{
+    font-family: "Lobster", sans-serif;
+    margin: 10px 0;
+    margin-top: 60px;
+    margin-bottom: 30px;
+    font-size: 80px;
+    text-align: center;
+}
+
+/* Reset pour HTML et Body */
+html, body {
+    height: 100%;
+    margin: 0;
+    padding: 0;
+}
+
+/* Style général */
+body {
+    background-color: darkgray !important; 
+    font-family: Arial, sans-serif;
+    text-align: center;
+    display: flex;
+    flex-direction: column;
+    min-height: 100vh;
+}
+
+/* Main prend tout l'espace disponible */
+main {
+    flex: 1;
+}
+
+/* Bannière centrée et ajustée */
+header img {
+    width: 40%;
+    max-width: 900px;
+    max-height: 200px;
+    height: auto;
+    display: block;
+    margin: 20px auto;
+    border-radius: 10px;
+    box-shadow: 0 4px 8px rgba(253, 0, 0, 0.8);
+}
+
+header {
+    background-image: url(../images/voiture/carb.jpg);
+    background-color: #222;
+    padding: 20px 0;
+    box-shadow: 0 4px 8px rgba(253, 0, 0, 0.8);
+}
+
+/* Footer fixé en bas */
+footer {
+    background-color: #222;
+    color: white;
+    padding: 10px 0;
+    width: 100%;
+    margin-top: 50px;
+    flex-shrink: 0;
+}
+
+/* Paragraphe d'intro */
+.welcome {
+    max-width: 800px;
+    margin: 0 auto 30px;
+    font-size: 1.3rem;
+    color: #444;
+    line-height: 1.6;
+    padding: 0 20px;
+}
+
+.logo-container {
+    display: grid;
+    grid-template-columns: repeat(3, 1fr);
+    gap: 10px;
+    justify-items: center;
+    align-items: center;
+    margin-top: 40px;
+    padding: 0 20px;
+    margin-bottom: 30px;
+}
+
+.logo-container img {
+    width: 160px;
+    height: auto;
+    transition: transform 0.3s ease;
+}
+
+.logo-container img:hover {
+    transform: scale(1.1);
+    filter: drop-shadow(0 0 10px red);
+}
+
+/* Responsive pour tablettes */
+@media (max-width: 768px) {
+    h1 {
+        font-size: 60px;
+        margin-top: 40px;
+    }
+    
+    header img {
+        width: 60%;
+    }
+    
+    .logo-container {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 20px;
+    }
+    
+    .welcome {
+        font-size: 1.1rem;
+        padding: 0 30px;
+    }
+}
+
+/* Responsive pour mobiles */
+@media (max-width: 480px) {
+    h1 {
+        font-size: 40px;
+        margin-top: 30px;
+        margin-bottom: 20px;
+    }
+    
+    header img {
+        width: 80%;
+    }
+    
+    .logo-container {
+        grid-template-columns: repeat(2, 1fr);
+        gap: 15px;
+    }
+    
+    .logo-container img {
+        width: 120px;
+    }
+    
+    .welcome {
+        font-size: 1rem;
+        padding: 0 20px;
+    }
+    
+    footer {
+        margin-top: 30px;
+        padding: 15px 0;
+    }
+}
