@@ -21,18 +21,18 @@ let connected = false; // État de connexion
 (async function recuperDonnees() {
     try {
         const resultats = await Promise.all([
-            fetch('../json/bpm.json'),
-            fetch('../json/chevremiel.json'),
-            fetch('../json/croqmonsieur.json'),
-            fetch('../json/fromages.json'),
-            fetch('../json/hutburger.json'),
-            fetch('../json/jamboncheese.json'),
-            fetch('../json/margherita.json'),
-            fetch('../json/orientale.json'),
-            fetch('../json/pepperonilovers.json'),
-            fetch('../json/supreme.json'),
-            fetch('../json/texanebarbecue.json'),
-            fetch('../json/vegetarienne.json'),
+            fetch('../../json/bpm.json'),
+            fetch('../../json/chevremiel.json'),
+            fetch('../../json/croqmonsieur.json'),
+            fetch('../../json/fromages.json'),
+            fetch('../../json/hutburger.json'),
+            fetch('../../json/jamboncheese.json'),
+            fetch('../../json/margherita.json'),
+            fetch('../../json/orientale.json'),
+            fetch('../../json/pepperonilovers.json'),
+            fetch('../../json/supreme.json'),
+            fetch('../../json/texanebarbecue.json'),
+            fetch('../../json/vegetarienne.json'),
         ]);
 
         const dataJson = await Promise.all(resultats.map(res => res.json()));
