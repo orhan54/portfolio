@@ -1,0 +1,53 @@
+<!DOCTYPE html>
+<html lang="fr">
+<head>
+    <meta charset="UTF-8">
+    <title>Corvette Z06</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link href="https://fonts.googleapis.com/css2?family=Lobster&display=swap" rel="stylesheet"/>
+    <link rel="stylesheet" href="../../css/corvette.css">
+    <script type="module" src="../../js/voiture.js"></script>
+</head>
+<body>
+    <header>
+        <img src="../../images/voiture/banniere.jpg" alt="banniere">
+    </header>
+
+    <main>
+        <h1><img id="logo-title" src="../../images/voiture/png-corvette-removebg-preview.png" alt="">Corvette Z06</h1>
+        <div class="content-container">
+            <!-- Vidéo -->
+            <video controls poster="../../images/voiture/corvetteZ06Face.png">
+                <source src="../../video/YTDown.com_YouTube_Tour-Chrono-CORVETTE-Z06_Media_8n0bZc56CnU_001_1080p.mp4" type="video/mp4">
+                Votre navigateur ne supporte pas la lecture vidéo.
+            </video>
+
+            <!-- Texte à côté -->
+            <div class="text-container">
+                <h3>Performances et consommation de la Corvette Z06</h3>
+                <p>La Chevrolet Corvette Z06 2023 est équipée d'un moteur V8 atmosphérique de 5,5 litres développant 670 chevaux, ce qui en fait le V8 
+                    atmosphérique le plus puissant jamais installé dans une voiture de production. Elle accélère de 0 à 100 km/h en seulement 3,3 
+                    secondes et réalise le 0 à 160 km/h en 6,4 secondes. Sa vitesse maximale atteint 312 km/h.<br><br>
+
+                En termes de consommation, la Z06 affiche des estimations de l'EPA de 12 mpg en ville et 19 mpg sur autoroute, soit environ 19,4 L/100 km en ville et 11,4 L/100 km sur autoroute. Ces chiffres varient en fonction des conditions de conduite et des équipements spécifiques du véhicule.</p>
+            </div>
+        </div>
+    </main>
+
+    <!-- Galerie d'images -->
+    <div class="gallery">
+        <div class="main-photo-container">
+            <img id="mainPhoto" class="main-photo" src="../../images/voiture/corvetteZ06Face.png" alt="Image principale">
+        </div>
+        <div class="thumbnails">
+            <img class="active" src="../../images/voiture/corvetteZ06Face.png" onclick="changeImage(this)">
+            <img src="../../images/voiture/corvetteZ06back.png" onclick="changeImage(this)">
+            <img src="../../images/voiture/corvetteZ06cote.png" onclick="changeImage(this)">
+        </div>
+    </div>
+    <footer>
+        <p>&copy; 2025 Supercar. Tous droits réservés.</p>
+    </footer>
+</body>
+</html>
