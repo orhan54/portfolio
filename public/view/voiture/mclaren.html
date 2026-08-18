@@ -1,0 +1,117 @@
+<!doctype html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <title>McLaren 720S</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lobster&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.2/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../../css/corvette.css" />
+    <script type="module" src="../../js/voiture.js"></script>
+  </head>
+  <body>
+    <header>
+      <a href="../../view/voiture/voiture.html"
+        ><img src="../../images/voiture/banniere.jpg" alt="banniere"
+      /></a>
+    </header>
+
+    <main>
+      <h1
+        class="w-100 text-center d-flex align-items-center justify-content-center"
+        style="white-space: nowrap; gap: 0.5rem"
+      >
+        <img
+          id="logo-title"
+          src="../../images/voiture/logos/imgbin-mclaren-automotive-mclaren-f1-mclaren-p1-mercedes-benz-slr-mclaren-mclaren-aJGuVrJPW9mjHa36iuy4sRXm9-removebg-preview.png"
+          alt="mclaren logo"
+        />McLaren 720S
+      </h1>
+      <div class="content-container">
+        <!-- Vidéo -->
+        <div
+          class="video-wrapper"
+          style="
+            width: 100%;
+            aspect-ratio: 16 / 9;
+            border-radius: 12px;
+            overflow: hidden;
+          "
+        >
+          <iframe
+            width="100%"
+            height="100%"
+            src="https://www.youtube.com/embed/9nrGy4SsC9c"
+            title="Présentation vidéo"
+            frameborder="0"
+            allow="
+              accelerometer;
+              autoplay;
+              clipboard-write;
+              encrypted-media;
+              gyroscope;
+              picture-in-picture;
+              web-share;
+            "
+            allowfullscreen
+            style="display: block; width: 100%; height: 100%"
+          >
+          </iframe>
+        </div>
+
+        <!-- Texte à côté -->
+        <div class="text-container">
+          <h3>Performances et consommation de la McLaren 720S</h3>
+          <p>
+            La McLaren 720S est équipée d'un V8 biturbo de 4 litres développant
+            720 chevaux, monté sur un châssis en fibre de carbone Monocage II.
+            Elle accélère de 0 à 100 km/h en 2,9 secondes et atteint une vitesse
+            maximale de 341 km/h.<br /><br />
+
+            En termes de consommation, la 720S affiche une moyenne homologuée
+            d'environ 10,7 L/100 km en cycle mixte. Son poids contenu et son
+            aérodynamique active en font l'une des supercars les plus
+            performantes de sa catégorie, aussi bien sur route que sur circuit.
+          </p>
+        </div>
+      </div>
+    </main>
+
+    <!-- Galerie d'images -->
+    <div class="gallery">
+      <div class="main-photo-container">
+        <img
+          id="mainPhoto"
+          class="main-photo"
+          src="../../images/voiture/photos/mclaren/mclaren1.png"
+          alt="Image principale"
+        />
+      </div>
+      <div class="thumbnails">
+        <img
+          class="active"
+          src="../../images/voiture/photos/mclaren/mclaren1.png"
+          onclick="changeImage(this)"
+        />
+        <img
+          src="../../images/voiture/photos/mclaren/mclaren2.png"
+          onclick="changeImage(this)"
+        />
+        <img
+          src="../../images/voiture/photos/mclaren/mclaren3.png"
+          onclick="changeImage(this)"
+        />
+      </div>
+    </div>
+    <footer>
+      <p>&copy; 2025 Supercar. Tous droits réservés.</p>
+    </footer>
+  </body>
+</html>

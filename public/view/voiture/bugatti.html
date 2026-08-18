@@ -1,0 +1,119 @@
+<!doctype html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Bugatti Chiron</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lobster&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.2/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../../css/corvette.css" />
+    <script type="module" src="../../js/voiture.js"></script>
+  </head>
+  <body>
+    <header>
+      <a href="../../view/voiture/voiture.html"
+        ><img src="../../images/voiture/banniere.jpg" alt="banniere"
+      /></a>
+    </header>
+
+    <main>
+      <h1
+        class="w-100 text-center d-flex align-items-center justify-content-center"
+        style="white-space: nowrap; gap: 0.5rem"
+      >
+        <img
+          id="logo-title"
+          src="../../images/voiture/logos/hd-bugatti-b-logo-png-701751694709239tn1ngjhqfr-removebg-preview.png"
+          alt="bugatti logo"
+        />Bugatti Chiron
+      </h1>
+      <div class="content-container">
+        <!-- Vidéo -->
+        <div
+          class="video-wrapper"
+          style="
+            width: 100%;
+            aspect-ratio: 16 / 9;
+            border-radius: 12px;
+            overflow: hidden;
+          "
+        >
+          <iframe
+            width="100%"
+            height="100%"
+            src="https://www.youtube.com/embed/FuS_bXJNync"
+            title="Présentation vidéo"
+            frameborder="0"
+            allow="
+              accelerometer;
+              autoplay;
+              clipboard-write;
+              encrypted-media;
+              gyroscope;
+              picture-in-picture;
+              web-share;
+            "
+            allowfullscreen
+            style="display: block; width: 100%; height: 100%"
+          >
+          </iframe>
+        </div>
+
+        <!-- Texte à côté -->
+        <div class="text-container">
+          <h3>Performances et consommation de la Bugatti Chiron</h3>
+          <p>
+            La Bugatti Chiron est équipée d'un moteur W16 quadri-turbo de 8
+            litres développant 1500 chevaux. Elle accélère de 0 à 100 km/h en
+            2,4 secondes et sa vitesse est électroniquement limitée à 420 km/h
+            (les versions Super Sport dépassant les 480 km/h en configuration
+            débridée).<br /><br />
+
+            En termes de consommation, la Chiron affiche une moyenne homologuée
+            pouvant dépasser 22 L/100 km en cycle mixte, un chiffre qui grimpe
+            fortement à haute vitesse. Elle reste l'une des hypercars les plus
+            emblématiques jamais produites, symbole absolu de puissance et de
+            raffinement.
+          </p>
+        </div>
+      </div>
+    </main>
+
+    <!-- Galerie d'images -->
+    <div class="gallery">
+      <div class="main-photo-container">
+        <img
+          id="mainPhoto"
+          class="main-photo"
+          src="../../images/voiture/photos/bugatti/bugatti1.png"
+          alt="Image principale"
+        />
+      </div>
+      <div class="thumbnails">
+        <img
+          class="active"
+          src="../../images/voiture/photos/bugatti/bugatti1.png"
+          onclick="changeImage(this)"
+        />
+        <img
+          src="../../images/voiture/photos/bugatti/bugatti2.png"
+          onclick="changeImage(this)"
+        />
+        <img
+          src="../../images/voiture/photos/bugatti/bugatti3.png"
+          onclick="changeImage(this)"
+        />
+      </div>
+    </div>
+    <footer>
+      <p>&copy; 2025 Supercar. Tous droits réservés.</p>
+    </footer>
+  </body>
+</html>

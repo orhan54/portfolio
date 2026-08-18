@@ -1,0 +1,118 @@
+<!doctype html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Lamborghini Huracán</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lobster&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.2/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../../css/corvette.css" />
+    <script type="module" src="../../js/voiture.js"></script>
+  </head>
+  <body>
+    <header>
+      <a href="../../view/voiture/voiture.html"
+        ><img src="../../images/voiture/banniere.jpg" alt="banniere"
+      /></a>
+    </header>
+
+    <main>
+      <h1
+        class="w-100 text-center d-flex align-items-center justify-content-center"
+        style="white-space: nowrap; gap: 0.5rem"
+      >
+        <img
+          id="logo-title"
+          src="../../images/voiture/logos/png-lamborghini-removebg-preview.png"
+          alt="lamborghini logo"
+        />Lamborghini Huracán
+      </h1>
+      <div class="content-container">
+        <!-- Vidéo -->
+        <div
+          class="video-wrapper"
+          style="
+            width: 100%;
+            aspect-ratio: 16 / 9;
+            border-radius: 12px;
+            overflow: hidden;
+          "
+        >
+          <iframe
+            width="100%"
+            height="100%"
+            src="https://www.youtube.com/embed/tpPkrhsKeXg"
+            title="Présentation vidéo"
+            frameborder="0"
+            allow="
+              accelerometer;
+              autoplay;
+              clipboard-write;
+              encrypted-media;
+              gyroscope;
+              picture-in-picture;
+              web-share;
+            "
+            allowfullscreen
+            style="display: block; width: 100%; height: 100%"
+          >
+          </iframe>
+        </div>
+
+        <!-- Texte à côté -->
+        <div class="text-container">
+          <h3>Performances et consommation de la Lamborghini Huracán</h3>
+          <p>
+            La Lamborghini Huracán est équipée d'un moteur V10 atmosphérique de
+            5,2 litres développant environ 640 chevaux selon les versions. Elle
+            accélère de 0 à 100 km/h en environ 2,9 secondes et réalise le 0 à
+            200 km/h en un peu moins de 9 secondes. Sa vitesse maximale avoisine
+            les 325 km/h.<br /><br />
+
+            En termes de consommation, la Huracán affiche une moyenne homologuée
+            d'environ 14 L/100 km en cycle mixte, pouvant grimper bien au-delà
+            en conduite sportive. Ces chiffres varient selon la version (RWD,
+            EVO, STO) et le style de conduite adopté.
+          </p>
+        </div>
+      </div>
+    </main>
+
+    <!-- Galerie d'images -->
+    <div class="gallery">
+      <div class="main-photo-container">
+        <img
+          id="mainPhoto"
+          class="main-photo"
+          src="../../images/voiture/photos/lamborghini/lambo1.png"
+          alt="Image principale"
+        />
+      </div>
+      <div class="thumbnails">
+        <img
+          class="active"
+          src="../../images/voiture/photos/lamborghini/lambo1.png"
+          onclick="changeImage(this)"
+        />
+        <img
+          src="../../images/voiture/photos/lamborghini/lambo2.png"
+          onclick="changeImage(this)"
+        />
+        <img
+          src="../../images/voiture/photos/lamborghini/lambo3.png"
+          onclick="changeImage(this)"
+        />
+      </div>
+    </div>
+    <footer>
+      <p>&copy; 2025 Supercar. Tous droits réservés.</p>
+    </footer>
+  </body>
+</html>

@@ -1,0 +1,119 @@
+<!doctype html>
+<html lang="fr">
+  <head>
+    <meta charset="UTF-8" />
+    <title>Ferrari SF90 Stradale</title>
+    <link rel="preconnect" href="https://fonts.googleapis.com" />
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Lobster&display=swap"
+      rel="stylesheet"
+    />
+    <link
+      href="https://cdnjs.cloudflare.com/ajax/libs/bootstrap/5.3.2/css/bootstrap.min.css"
+      rel="stylesheet"
+    />
+    <link rel="stylesheet" href="../../css/corvette.css" />
+    <script type="module" src="../../js/voiture.js"></script>
+  </head>
+  <body>
+    <header>
+      <a href="../../view/voiture/voiture.html"
+        ><img src="../../images/voiture/banniere.jpg" alt="banniere"
+      /></a>
+    </header>
+
+    <main>
+      <h1
+        class="w-100 text-center d-flex align-items-center justify-content-center"
+        style="white-space: nowrap; gap: 0.5rem"
+      >
+        <img
+          id="logo-title"
+          src="../../images/voiture/logos/hd-ferrari-logo-transparent-background-701751694773105xaxoflrdiu-removebg-preview.png"
+          alt="ferrari logo"
+        />Ferrari SF90 Stradale
+      </h1>
+      <div class="content-container">
+        <!-- Vidéo -->
+        <div
+          class="video-wrapper"
+          style="
+            width: 100%;
+            aspect-ratio: 16 / 9;
+            border-radius: 12px;
+            overflow: hidden;
+          "
+        >
+          <iframe
+            width="100%"
+            height="100%"
+            src="https://www.youtube.com/embed/MvVXL-vBQs0"
+            title="Présentation vidéo"
+            frameborder="0"
+            allow="
+              accelerometer;
+              autoplay;
+              clipboard-write;
+              encrypted-media;
+              gyroscope;
+              picture-in-picture;
+              web-share;
+            "
+            allowfullscreen
+            style="display: block; width: 100%; height: 100%"
+          >
+          </iframe>
+        </div>
+
+        <!-- Texte à côté -->
+        <div class="text-container">
+          <h3>Performances et consommation de la Ferrari SF90 Stradale</h3>
+          <p>
+            La Ferrari SF90 Stradale est une hypercar hybride rechargeable
+            combinant un V8 biturbo de 4 litres et trois moteurs électriques,
+            pour une puissance cumulée d'environ 1000 chevaux. Elle accélère de
+            0 à 100 km/h en 2,5 secondes et atteint une vitesse maximale
+            d'environ 340 km/h.<br /><br />
+
+            Grâce à son architecture hybride, elle peut rouler en mode 100%
+            électrique sur une courte distance, avant que le V8 ne prenne le
+            relais. La consommation homologuée en cycle mixte se situe autour de
+            6 à 7 L/100 km, un chiffre optimisé par l'assistance électrique mais
+            qui grimpe rapidement en usage sportif.
+          </p>
+        </div>
+      </div>
+    </main>
+
+    <!-- Galerie d'images -->
+    <div class="gallery">
+      <div class="main-photo-container">
+        <img
+          id="mainPhoto"
+          class="main-photo"
+          src="../../images/voiture/photos/ferrari/ferrari1.png"
+          alt="Image principale"
+        />
+      </div>
+      <div class="thumbnails">
+        <img
+          class="active"
+          src="../../images/voiture/photos/ferrari/ferrari1.png"
+          onclick="changeImage(this)"
+        />
+        <img
+          src="../../images/voiture/photos/ferrari/ferrari2.png"
+          onclick="changeImage(this)"
+        />
+        <img
+          src="../../images/voiture/photos/ferrari/ferrari3.png"
+          onclick="changeImage(this)"
+        />
+      </div>
+    </div>
+    <footer>
+      <p>&copy; 2025 Supercar. Tous droits réservés.</p>
+    </footer>
+  </body>
+</html>
