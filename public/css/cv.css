@@ -170,6 +170,14 @@ body {
   margin-top: 16px;
 }
 
+.contact-line a {
+  color: var(--maroon-dark);
+
+  text-decoration: none;
+
+  font-weight: 600;
+}
+
 /* Citation */
 
 .quote {
