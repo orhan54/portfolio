@@ -243,4 +243,3 @@ http://localhost:8000
 <p align="center">
   Fait avec ❤️ par Orhan CICEK
 </p>
-```
