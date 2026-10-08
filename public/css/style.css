@@ -193,6 +193,26 @@ main > h3 {
   background-color: #00758f;
 }
 
+/* MVC */
+.badge-mvc {
+  background-color: #6c5ce7;
+}
+
+/* DAO */
+.badge-dao {
+  background-color: #0984e3;
+}
+
+/* PDO */
+.badge-pdo {
+  background-color: #00a8a8;
+}
+
+/* Flatpickr */
+.badge-flatpickr {
+  background-color: #f39c12;
+}
+
 /* =========================
    STATUT
    ========================= */
