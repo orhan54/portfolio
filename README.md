@@ -4,7 +4,7 @@
 
 Bienvenue sur mon portfolio ! Ce site présente mon parcours, mon CV ainsi qu'une sélection de projets réalisés au cours de ma formation et de mes expériences en développement web et logiciel.
 
-🔗 **Portfolio en ligne :** [orhan54.github.io/portfolio](https://orhan54.github.io/portfolio/)
+🔗 **Portfolio en ligne :** [orhan54.github.io/portfolio](https://orhan54.github.io/portfolio/)  
 💻 **Code source :** [github.com/orhan54](https://github.com/orhan54)
 
 ---
@@ -14,12 +14,12 @@ Bienvenue sur mon portfolio ! Ce site présente mon parcours, mon CV ainsi qu'un
 - [À propos](#-à-propos)
 - [Aperçu du portfolio](#-aperçu-du-portfolio)
 - [Projets](#-projets)
-  - [1. Application Full Stack](#1-application-full-stack)
-  - [2. Mon CV](#2-mon-cv)
-  - [3. Site pizzeria](#3-site-pizzeria)
-  - [4. Calculatrice](#4-calculatrice)
-  - [5. Site de supercar](#5-site-de-supercar)
-
+  - [1. Vacances — Application Full Stack](#1-vacances--application-full-stack)
+  - [2. Gestionnaire de tâches](#2-gestionnaire-de-tâches)
+  - [3. Mon CV](#3-mon-cv)
+  - [4. Site pizzeria](#4-site-pizzeria)
+  - [5. Calculatrice](#5-calculatrice)
+  - [6. Site de supercar](#6-site-de-supercar)
 - [Technologies utilisées](#-technologies-utilisées)
 - [Structure du dépôt](#-structure-du-dépôt)
 - [Lancer le projet en local](#-lancer-le-projet-en-local)
@@ -53,25 +53,43 @@ Depuis la page d'accueil, les projets sont présentés sous forme de cartes avec
 
 ## 📂 Projets
 
-### 1. Application Full Stack
+### 1. Vacances — Application Full Stack
 
-Application web développée en **PHP** avec une base de données **MySQL**.
+Application web **Full Stack PHP/MySQL** permettant de gérer des lieux de vacances, leurs disponibilités et les réservations des utilisateurs.
 
-Ce projet met en œuvre une architecture structurée avec la gestion des **entités** et de la **DAO (Data Access Object)** afin de séparer la logique applicative de l'accès aux données.
+Le projet met en œuvre une architecture **MVC** développée sans framework, avec une séparation claire entre les **contrôleurs, entités et DAO**, ainsi que des requêtes **PDO préparées** pour sécuriser les échanges avec la base de données.
 
-L'interface utilise **Tailwind CSS** pour la mise en forme et propose une gestion des données à travers différentes fonctionnalités **CRUD**.
+L'application intègre notamment l'**authentification**, la gestion des rôles utilisateur/admin, les réservations, les commentaires, les notes, les likes et la gestion des lieux.
 
-L'application a également été **déployée et hébergée en ligne sur Kmer Hosting**, avec sa base de données MySQL, permettant d'utiliser le projet directement depuis un environnement web.
+Une interface d'administration permet également de gérer les lieux et les contenus associés.
 
-Ce projet représente une approche complète du développement web avec une partie **front-end, back-end, base de données et déploiement**.
+Le projet a été **déployé et hébergé en ligne sur AwardSpace**, avec sa base de données **MySQL**, afin de rendre l'application accessible directement depuis un navigateur.
 
-**Technologies :** `PHP` `MySQL` `Tailwind CSS` `DAO` `Entités`
+**Technologies :** `PHP` `MySQL` `Tailwind CSS` `JavaScript` `MVC` `DAO` `PDO` `Flatpickr`
 
-**Hébergement :** `Kmer Hosting`
+**Hébergement :** `AwardSpace`
+
+**Application en ligne :** https://vacancesapp.atwebpages.com/
+
+**Code source :** https://github.com/orhan54/vacances
 
 ---
 
-### 2. Mon CV
+### 2. Gestionnaire de tâches
+
+Application web de gestion de tâches développée en **PHP orienté objet** avec une base de données **MySQL**.
+
+Le projet met en œuvre une architecture **MVC** construite de zéro, avec une séparation entre les différentes couches de l'application grâce au pattern **DAO/Entité**.
+
+L'application propose un **CRUD complet** permettant de créer, consulter, modifier et supprimer des tâches.
+
+L'interface utilise **Tailwind CSS** pour proposer une présentation simple, moderne et responsive.
+
+**Technologies :** `PHP` `MySQL` `Tailwind CSS` `MVC` `DAO` `Entités`
+
+---
+
+### 3. Mon CV
 
 Mon CV interactif a été réalisé en **HTML et CSS**, avec un design moderne et responsive.
 
@@ -83,7 +101,7 @@ Le design a été conçu pour s'adapter aux différents formats d'écran, notamm
 
 ---
 
-### 3. Site pizzeria
+### 4. Site pizzeria
 
 Un site vitrine moderne pour une pizzeria, réalisé en **HTML, CSS et JavaScript**.
 
@@ -97,7 +115,7 @@ Le site est entièrement responsive afin de proposer une expérience adaptée au
 
 ---
 
-### 4. Calculatrice
+### 5. Calculatrice
 
 Une calculatrice interactive réalisée en **HTML, CSS et JavaScript**.
 
@@ -114,7 +132,7 @@ Le projet permet notamment de mettre en pratique la manipulation du **DOM**, les
 
 ---
 
-### 5. Site de supercar
+### 6. Site de supercar
 
 Une plateforme web dédiée aux passionnés d'automobiles d'exception.
 
@@ -136,7 +154,7 @@ Le projet est principalement orienté **intégration HTML/CSS** et mise en valeu
 | **JSON**         | Stockage et manipulation de données pour certains projets      |
 | **PHP**          | Développement back-end et logique applicative                  |
 | **MySQL**        | Gestion des bases de données relationnelles                    |
-| **Tailwind CSS** | Création des interfaces du projet Full Stack                   |
+| **Tailwind CSS** | Création des interfaces des projets Full Stack                 |
 | **DAO**          | Séparation de l'accès aux données et de la logique applicative |
 | **Git / GitHub** | Gestion et versionnement du code                               |
 
@@ -243,3 +261,4 @@ http://localhost:8000
 <p align="center">
   Fait avec ❤️ par Orhan CICEK
 </p>
+```
