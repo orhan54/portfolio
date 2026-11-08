@@ -1,10 +1,11 @@
 # 👋 Portfolio — Orhan CICEK
 
-**Développeur Full Stack** — PHP • Java • MySQL • Laravel • Symfony • HTML • CSS • JavaScript
+**Développeur Full Stack** — PHP • Java • Spring Boot • MySQL • HTML • CSS • JavaScript
 
-Bienvenue sur mon portfolio ! Ce site présente mon parcours, mon CV ainsi qu'une sélection de projets réalisés au cours de ma formation et de mes expériences en développement web et logiciel.
+Bienvenue sur mon portfolio ! Ce site présente mon parcours, mes compétences techniques, mon CV ainsi qu'une sélection de projets réalisés au cours de mes formations et de mes expériences en développement web et logiciel.
 
-🔗 **Portfolio en ligne :** [orhan54.github.io/portfolio](https://orhan54.github.io/portfolio/)  
+🔗 **Portfolio en ligne :** [orhan54.github.io/portfolio](https://orhan54.github.io/portfolio/)
+
 💻 **Code source :** [github.com/orhan54](https://github.com/orhan54)
 
 ---
@@ -19,10 +20,12 @@ Bienvenue sur mon portfolio ! Ce site présente mon parcours, mon CV ainsi qu'un
   - [3. Mon CV](#3-mon-cv)
   - [4. Site pizzeria](#4-site-pizzeria)
   - [5. Calculatrice](#5-calculatrice)
-  - [6. Site de supercar](#6-site-de-supercar)
-- [Technologies utilisées](#-technologies-utilisées)
+  - [6. Site de supercars](#6-site-de-supercars)
+- [Technologies et compétences](#-technologies-et-compétences)
+- [Architecture et conception](#-architecture-et-conception)
+- [DevOps, CI/CD et qualité](#-devops-cicd-et-qualité)
 - [Structure du dépôt](#-structure-du-dépôt)
-- [Lancer le projet en local](#-lancer-le-projet-en-local)
+- [Installation et lancement](#-installation-et-lancement)
 - [Contact](#-contact)
 
 ---
@@ -31,13 +34,15 @@ Bienvenue sur mon portfolio ! Ce site présente mon parcours, mon CV ainsi qu'un
 
 Je m'appelle **Orhan CICEK** et je code depuis 2023.
 
-Passionné par le développement web et logiciel, j'ai développé des compétences dans plusieurs technologies et langages, notamment **HTML, CSS, JavaScript, PHP, SQL et Java**.
+Titulaire d'une formation de **Concepteur Développeur d'Applications**, je suis intéressé par le développement web et logiciel, aussi bien côté front-end que back-end.
 
-Au cours de mes formations et expériences, j'ai travaillé sur différents types de projets allant de l'intégration front-end au développement d'applications **Full Stack** avec gestion de bases de données.
+Au cours de mes formations et de mes projets, j'ai travaillé avec plusieurs technologies et langages : **HTML, CSS, JavaScript, PHP, Java et SQL**.
 
-J'ai notamment acquis des connaissances en **architecture MVC, DAO, gestion des entités, développement d'API, bases de données relationnelles, tests, Git, Docker et CI/CD**.
+J'ai également acquis des connaissances en programmation orientée objet, architecture MVC, DAO, gestion des entités, développement d'API REST et bases de données relationnelles.
 
-Mon objectif est de continuer à développer mes compétences et d'évoluer vers des projets de plus en plus orientés **développement logiciel, architecture et Full Stack**.
+Mon parcours m'a aussi permis d'aborder les environnements de développement, les tests automatisés, la conteneurisation avec Docker et les pratiques d'intégration continue (CI/CD).
+
+Mon objectif est de continuer à développer mes compétences et d'évoluer sur des projets orientés **développement Full Stack, conception logicielle et qualité du code**.
 
 ---
 
@@ -47,7 +52,7 @@ Voici un aperçu de la page d'accueil de mon portfolio :
 
 ![Aperçu du portfolio](./public/images/portfolio-preview.png)
 
-Depuis la page d'accueil, les projets sont présentés sous forme de cartes avec leur description, leurs technologies et un accès direct à leur réalisation.
+Le portfolio présente mon parcours, mes compétences techniques et plusieurs réalisations. Chaque projet dispose d'une description, des technologies utilisées et, lorsque disponible, d'un accès à sa version en ligne et à son code source.
 
 ---
 
@@ -57,13 +62,21 @@ Depuis la page d'accueil, les projets sont présentés sous forme de cartes avec
 
 Application web **Full Stack PHP/MySQL** permettant de gérer des lieux de vacances, leurs disponibilités et les réservations des utilisateurs.
 
-Le projet met en œuvre une architecture **MVC** développée sans framework, avec une séparation claire entre les **contrôleurs, entités et DAO**, ainsi que des requêtes **PDO préparées** pour sécuriser les échanges avec la base de données.
+Le projet met en œuvre une architecture **MVC développée sans framework**, avec une séparation claire entre les contrôleurs, les entités et les DAO.
 
-L'application intègre notamment l'**authentification**, la gestion des rôles utilisateur/admin, les réservations, les commentaires, les notes, les likes et la gestion des lieux.
+Les échanges avec la base de données sont réalisés avec **PDO et des requêtes préparées**.
 
-Une interface d'administration permet également de gérer les lieux et les contenus associés.
+L'application intègre notamment :
 
-Le projet a été **déployé et hébergé en ligne sur AwardSpace**, avec sa base de données **MySQL**, afin de rendre l'application accessible directement depuis un navigateur.
+- Authentification des utilisateurs.
+- Gestion des rôles utilisateur et administrateur.
+- Gestion des lieux et de leurs disponibilités.
+- Réservations.
+- Commentaires et notes.
+- Likes.
+- Interface d'administration.
+
+Le projet est déployé sur **AwardSpace**, avec une base de données MySQL hébergée, afin de rendre l'application accessible depuis un navigateur.
 
 **Technologies :** `PHP` `MySQL` `Tailwind CSS` `JavaScript` `MVC` `DAO` `PDO` `Flatpickr`
 
@@ -77,47 +90,49 @@ Le projet a été **déployé et hébergé en ligne sur AwardSpace**, avec sa ba
 
 ### 2. Gestionnaire de tâches
 
-Application web de gestion de tâches développée en **PHP orienté objet** avec une base de données **MySQL**.
+Application web de gestion de tâches développée en **PHP orienté objet** avec une base de données MySQL.
 
-Le projet met en œuvre une architecture **MVC** construite de zéro, avec une séparation entre les différentes couches de l'application grâce au pattern **DAO/Entité**.
+Le projet repose sur une architecture **MVC construite de zéro**, avec une séparation entre les différentes couches de l'application grâce aux principes DAO et Entité.
 
-L'application propose un **CRUD complet** permettant de créer, consulter, modifier et supprimer des tâches.
+L'application propose un CRUD permettant de créer, consulter, modifier et supprimer des tâches.
 
-L'interface utilise **Tailwind CSS** pour proposer une présentation simple, moderne et responsive.
+L'interface utilise Tailwind CSS pour proposer une présentation simple, moderne et responsive.
 
-**Technologies :** `PHP` `MySQL` `Tailwind CSS` `MVC` `DAO` `Entités`
+**Technologies :** `PHP` `POO` `MySQL` `Tailwind CSS` `MVC` `DAO` `Entités`
+
+**Application en ligne :** http://1115a1.host1.kmerhosting.com
+
+**Code source :** https://github.com/orhan54/autonome
 
 ---
 
 ### 3. Mon CV
 
-Mon CV interactif a été réalisé en **HTML et CSS**, avec un design moderne et responsive.
+CV interactif réalisé en HTML et CSS, avec un design moderne et responsive.
 
 Il présente mon parcours professionnel, mes formations, mes compétences techniques ainsi que mes expériences dans le développement web et logiciel.
 
-Le design a été conçu pour s'adapter aux différents formats d'écran, notamment ordinateur, tablette et mobile.
-
-**Technologies :** `HTML` `CSS`
+**Technologies :** `HTML5` `CSS3`
 
 ---
 
 ### 4. Site pizzeria
 
-Un site vitrine moderne pour une pizzeria, réalisé en **HTML, CSS et JavaScript**.
+Site vitrine moderne pour une pizzeria, réalisé en HTML, CSS et JavaScript.
 
 Le projet propose notamment un menu interactif, une présentation des produits et différentes interactions JavaScript.
 
-Les données du menu sont également organisées à l'aide de fichiers **JSON**.
+Les données du menu sont également organisées à l'aide de fichiers JSON.
 
-Le site est entièrement responsive afin de proposer une expérience adaptée aux différents écrans.
+Le site est responsive afin de proposer une expérience adaptée aux différents écrans.
 
-**Technologies :** `HTML` `CSS` `JavaScript` `JSON`
+**Technologies :** `HTML5` `CSS3` `JavaScript` `JSON`
 
 ---
 
 ### 5. Calculatrice
 
-Une calculatrice interactive réalisée en **HTML, CSS et JavaScript**.
+Calculatrice interactive réalisée en HTML, CSS et JavaScript.
 
 Elle permet d'effectuer les principales opérations mathématiques :
 
@@ -126,43 +141,99 @@ Elle permet d'effectuer les principales opérations mathématiques :
 - Multiplication
 - Division
 
-Le projet permet notamment de mettre en pratique la manipulation du **DOM**, les événements JavaScript et la gestion de la logique applicative côté client.
+Ce projet permet notamment de mettre en pratique la manipulation du DOM, les événements JavaScript et la gestion de la logique applicative côté client.
 
-**Technologies :** `HTML` `CSS` `JavaScript`
+**Technologies :** `HTML5` `CSS3` `JavaScript`
 
 ---
 
-### 6. Site de supercar
+### 6. Site de supercars
 
-Une plateforme web dédiée aux passionnés d'automobiles d'exception.
+Plateforme web dédiée aux passionnés d'automobiles d'exception.
 
 Le site présente une sélection de supercars avec leurs caractéristiques techniques, leurs performances et différents éléments visuels permettant de découvrir l'univers des voitures de sport haut de gamme.
 
-Le projet est principalement orienté **intégration HTML/CSS** et mise en valeur du contenu à travers une interface visuelle.
+Le projet est principalement orienté intégration HTML/CSS et mise en valeur du contenu à travers une interface visuelle.
 
-**Technologies :** `HTML` `CSS`
+**Technologies :** `HTML5` `CSS3`
 
 ---
 
-## 🛠️ Technologies utilisées
+## 🛠️ Technologies et compétences
 
-| Technologie      | Usage                                                          |
-| ---------------- | -------------------------------------------------------------- |
-| **HTML5**        | Structure et organisation des pages                            |
-| **CSS3**         | Mise en page, responsive design et animations                  |
-| **JavaScript**   | Interactivité et logique côté client                           |
-| **JSON**         | Stockage et manipulation de données pour certains projets      |
-| **PHP**          | Développement back-end et logique applicative                  |
-| **MySQL**        | Gestion des bases de données relationnelles                    |
-| **Tailwind CSS** | Création des interfaces des projets Full Stack                 |
-| **DAO**          | Séparation de l'accès aux données et de la logique applicative |
-| **Git / GitHub** | Gestion et versionnement du code                               |
+Les technologies suivantes ont été abordées et utilisées au cours de mes formations et de mes projets.
 
-### Autres technologies
+### Front-End
 
-Ma stack de développement comprend également des technologies étudiées et utilisées dans le cadre de mes formations et projets :
+| Technologie  | Utilisation                                   |
+| ------------ | --------------------------------------------- |
+| HTML5        | Structure et organisation des pages           |
+| CSS3         | Mise en page, responsive design et animations |
+| JavaScript   | Interactivité et logique côté client          |
+| Bootstrap    | Framework CSS pour la création d'interfaces   |
+| Tailwind CSS | Framework CSS utilitaire                      |
 
-`Java` • `Spring Boot` • `Laravel` • `Symfony` • `SQL` • `Bootstrap` • `Docker` • `Maven` • `JUnit` • `Allure` • `Sonar` • `Jenkins`
+### Back-End
+
+| Technologie | Utilisation                                            |
+| ----------- | ------------------------------------------------------ |
+| PHP         | Développement back-end et logique applicative          |
+| Java        | Programmation orientée objet et développement logiciel |
+| Spring Boot | Développement d'applications et de services Java       |
+| Symfony     | Framework PHP                                          |
+| Laravel     | Framework PHP                                          |
+
+### Bases de données et architecture
+
+| Technologie / Concept | Utilisation                                |
+| --------------------- | ------------------------------------------ |
+| MySQL                 | Gestion de bases de données relationnelles |
+| SQL                   | Requêtes et manipulation des données       |
+| PDO                   | Accès aux bases de données en PHP          |
+| POO                   | Programmation orientée objet               |
+| MVC                   | Organisation de l'architecture applicative |
+| DAO                   | Séparation de l'accès aux données          |
+| Repository Pattern    | Organisation de la persistance des données |
+| API REST              | Communication entre applications           |
+
+---
+
+## 🏗️ Architecture et conception
+
+Les principes et concepts abordés dans mes projets et formations comprennent :
+
+- **Programmation orientée objet (POO)** : classes, objets, encapsulation et séparation des responsabilités.
+- **Architecture MVC** : séparation entre modèles, vues et contrôleurs.
+- **DAO / Entités** : organisation de l'accès aux données et représentation des objets métier.
+- **Repository Pattern** : centralisation des opérations de persistance.
+- **API REST** : conception et communication avec des services web.
+- **Spring Boot** : découverte de l'écosystème Java pour le développement back-end.
+
+---
+
+## ⚙️ DevOps, CI/CD et qualité
+
+J'ai également abordé différents outils permettant d'améliorer le suivi, les tests et la qualité des applications.
+
+| Outil          | Utilisation                                             |
+| -------------- | ------------------------------------------------------- |
+| Git            | Gestion de versions                                     |
+| GitHub         | Hébergement et gestion des dépôts                       |
+| Docker         | Conteneurisation des applications                       |
+| GitHub Actions | Automatisation des workflows et intégration continue    |
+| Jenkins        | Automatisation des pipelines CI/CD                      |
+| Maven          | Gestion des dépendances et construction de projets Java |
+| JUnit          | Tests unitaires Java                                    |
+| Allure Report  | Génération et visualisation des rapports de tests       |
+| SonarQube      | Analyse statique et suivi de la qualité du code         |
+
+Ces outils permettent notamment d'aborder différentes étapes d'un processus d'intégration continue :
+
+1. Déclenchement d'un workflow lors d'un push ou d'une Pull Request.
+2. Compilation et vérification du projet.
+3. Exécution des tests automatisés.
+4. Génération de rapports de tests.
+5. Analyse de la qualité du code.
 
 ---
 
@@ -170,47 +241,48 @@ Ma stack de développement comprend également des technologies étudiées et ut
 
 ```text
 portfolio/
-├── public/
-│   ├── index.html
-│   │
-│   ├── css/
-│   │   ├── style.css
-│   │   ├── cv.css
-│   │   ├── pizza.css
-│   │   ├── calculatrice.css
-│   │   ├── corvette.css
-│   │   └── voiture.css
-│   │
-│   ├── js/
-│   │   └── ...
-│   │
-│   ├── json/
-│   │   └── *.json
-│   │
-│   ├── images/
-│   │   ├── portfolio-preview.png
-│   │   └── ...
-│   │
-│   └── view/
-│       ├── fullstack/
-│       │   └── ...
-│       ├── cv/
-│       │   └── cv.html
-│       ├── pizza/
-│       │   └── ...
-│       ├── calculatrice/
-│       │   └── ...
-│       └── voiture/
-│           └── ...
 │
-└── README.md
+├── index.html
+├── README.md
+│
+└── public/
+    │
+    ├── css/
+    │   ├── style.css
+    │   ├── cv.css
+    │   ├── pizza.css
+    │   ├── calculatrice.css
+    │   ├── corvette.css
+    │   └── voiture.css
+    │
+    ├── js/
+    │   └── index.js
+    │
+    ├── json/
+    │   └── *.json
+    │
+    ├── images/
+    │   ├── portfolio-preview.png
+    │   └── ...
+    │
+    └── view/
+        ├── fullstack/
+        │   └── ...
+        ├── cv/
+        │   └── cv.html
+        ├── pizza/
+        │   └── ...
+        ├── calculatrice/
+        │   └── ...
+        └── voiture/
+            └── ...
 ```
 
 ---
 
-## ⚙️ Lancer le projet en local
+## ⚙️ Installation et lancement
 
-Pour les projets front-end, aucune installation particulière n'est nécessaire.
+Pour consulter le portfolio et les projets front-end, aucune installation particulière n'est nécessaire.
 
 ### 1. Cloner le dépôt
 
@@ -226,20 +298,14 @@ cd portfolio
 
 ### 3. Lancer le projet
 
-Ouvrir le fichier :
-
-```text
-public/index.html
-```
-
-dans un navigateur.
+Ouvrir le fichier `index.html` dans un navigateur.
 
 Il est également recommandé d'utiliser un serveur local, notamment pour les projets utilisant des fichiers JSON.
 
-Avec **Live Server** dans VS Code ou avec Python :
+Avec l'extension **Live Server** de VS Code ou avec Python :
 
 ```bash
-python -m http.server
+python -m http.server 8000
 ```
 
 Puis accéder à :
@@ -254,6 +320,7 @@ http://localhost:8000
 
 - **Email :** [orhancicek1985@gmail.com](mailto:orhancicek1985@gmail.com)
 - **GitHub :** [github.com/orhan54](https://github.com/orhan54)
+- **LinkedIn :** [linkedin.com/in/orhan-cicek-b40960260](https://www.linkedin.com/in/orhan-cicek-b40960260/)
 - **Portfolio :** [orhan54.github.io/portfolio](https://orhan54.github.io/portfolio/)
 
 ---
