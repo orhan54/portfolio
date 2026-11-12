@@ -15,8 +15,8 @@ Bienvenue sur mon portfolio ! Ce site présente mon parcours, mes compétences t
 - [À propos](#-à-propos)
 - [Aperçu du portfolio](#-aperçu-du-portfolio)
 - [Projets](#-projets)
-  - [1. Vacances — Application Full Stack](#1-vacances--application-full-stack)
-  - [2. Gestionnaire de tâches](#2-gestionnaire-de-tâches)
+  - [1. Kebab O'Delices — Site vitrine et menu interactif](#1-kebab-odelices--site-vitrine-et-menu-interactif)
+  - [2. Vacances — Application Full Stack](#2-vacances--application-full-stack)
   - [3. Mon CV](#3-mon-cv)
   - [4. Site pizzeria](#4-site-pizzeria)
   - [5. Calculatrice](#5-calculatrice)
@@ -58,7 +58,7 @@ Le portfolio présente mon parcours, mes compétences techniques et plusieurs r�
 
 ## 📂 Projets
 
-### 1. Kebab O'Delices - Site vitrine et menu interactif
+### 1. Kebab O'Delices — Site vitrine et menu interactif
 
 Site web responsive réalisé pour un restaurant, permettant aux clients de consulter facilement le menu, les produits, leurs descriptions et leurs tarifs.
 
@@ -75,7 +75,7 @@ L'application intègre notamment :
 - Accès rapide aux commandes par téléphone et WhatsApp.
 - Interface responsive adaptée aux ordinateurs et aux mobiles.
 
-Le projet est déployé sur **Vercel**, afin de rendre le site accessible depuis un navigateur.
+Le site est déployé sur **Vercel**, afin de rendre le projet accessible depuis un navigateur.
 
 **Technologies :** `HTML5` `CSS3` `JavaScript` `Google Sheets`
 
@@ -85,7 +85,7 @@ Le projet est déployé sur **Vercel**, afin de rendre le site accessible depuis
 
 ---
 
-### 2. Vacances - Application Full Stack
+### 2. Vacances — Application Full Stack
 
 Application web **Full Stack PHP/MySQL** permettant de gérer des lieux de vacances, leurs disponibilités et les réservations des utilisateurs.
 
@@ -188,7 +188,7 @@ Les technologies suivantes ont été abordées et utilisées au cours de mes for
 | ----------- | ------------------------------------------------------ |
 | PHP         | Développement back-end et logique applicative          |
 | Java        | Programmation orientée objet et développement logiciel |
-| Spring Boot | Développement d'applications et de services Java       |
+| Spring Boot | Développement back-end avec Java                       |
 | Symfony     | Framework PHP                                          |
 | Laravel     | Framework PHP                                          |
 
@@ -222,7 +222,7 @@ Les principes et concepts abordés dans mes projets et formations comprennent :
 
 ## ⚙️ DevOps, CI/CD et qualité
 
-J'ai également abordé différents outils permettant d'améliorer le suivi, les tests et la qualité des applications.
+J'ai également découvert et utilisé différents outils permettant d'aborder l'automatisation des processus de développement, les tests et le contrôle de la qualité du code.
 
 | Outil          | Utilisation                                             |
 | -------------- | ------------------------------------------------------- |
@@ -236,7 +236,7 @@ J'ai également abordé différents outils permettant d'améliorer le suivi, les
 | Allure Report  | Génération et visualisation des rapports de tests       |
 | SonarQube      | Analyse statique et suivi de la qualité du code         |
 
-Ces outils permettent notamment d'aborder différentes étapes d'un processus d'intégration continue :
+Un pipeline CI/CD peut notamment intégrer les étapes suivantes :
 
 1. Déclenchement d'un workflow lors d'un push ou d'une Pull Request.
 2. Compilation et vérification du projet.
@@ -292,6 +292,8 @@ portfolio/
 ## ⚙️ Installation et lancement
 
 Pour consulter le portfolio et les projets front-end, aucune installation particulière n'est nécessaire.
+
+Ces instructions concernent uniquement le portfolio. Les autres projets peuvent nécessiter des configurations et des environnements spécifiques.
 
 ### 1. Cloner le dépôt
 
