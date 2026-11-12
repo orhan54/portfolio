@@ -1,4 +1,4 @@
-# 👋 Portfolio — Orhan CICEK
+# 👋 Portfolio - Orhan CICEK
 
 **Développeur Full Stack** — PHP • Java • Spring Boot • MySQL • HTML • CSS • JavaScript
 
@@ -58,7 +58,34 @@ Le portfolio présente mon parcours, mes compétences techniques et plusieurs r�
 
 ## 📂 Projets
 
-### 1. Vacances — Application Full Stack
+### 1. Kebab O'Delices - Site vitrine et menu interactif
+
+Site web responsive réalisé pour un restaurant, permettant aux clients de consulter facilement le menu, les produits, leurs descriptions et leurs tarifs.
+
+Le projet intègre une gestion dynamique du menu grâce à deux fichiers Google Sheets, permettant de mettre à jour les produits, les descriptions et les prix sans avoir à modifier le code source du site.
+
+L'application intègre notamment :
+
+- Menu interactif avec affichage des produits et de leurs tarifs.
+- Gestion dynamique du contenu depuis Google Sheets.
+- Organisation des produits par catégories.
+- Présentation des nouveautés et des offres.
+- Gestion des suppléments et des sauces.
+- Affichage des horaires d'ouverture et des exceptions.
+- Accès rapide aux commandes par téléphone et WhatsApp.
+- Interface responsive adaptée aux ordinateurs et aux mobiles.
+
+Le projet est déployé sur **Vercel**, afin de rendre le site accessible depuis un navigateur.
+
+**Technologies :** `HTML5` `CSS3` `JavaScript` `Google Sheets`
+
+**Hébergement :** `Vercel`
+
+**Application en ligne :** https://odelices-pi.vercel.app/
+
+---
+
+### 2. Vacances - Application Full Stack
 
 Application web **Full Stack PHP/MySQL** permettant de gérer des lieux de vacances, leurs disponibilités et les réservations des utilisateurs.
 
@@ -85,24 +112,6 @@ Le projet est déployé sur **AwardSpace**, avec une base de données MySQL héb
 **Application en ligne :** https://vacancesapp.atwebpages.com/
 
 **Code source :** https://github.com/orhan54/vacances
-
----
-
-### 2. Gestionnaire de tâches
-
-Application web de gestion de tâches développée en **PHP orienté objet** avec une base de données MySQL.
-
-Le projet repose sur une architecture **MVC construite de zéro**, avec une séparation entre les différentes couches de l'application grâce aux principes DAO et Entité.
-
-L'application propose un CRUD permettant de créer, consulter, modifier et supprimer des tâches.
-
-L'interface utilise Tailwind CSS pour proposer une présentation simple, moderne et responsive.
-
-**Technologies :** `PHP` `POO` `MySQL` `Tailwind CSS` `MVC` `DAO` `Entités`
-
-**Application en ligne :** http://1115a1.host1.kmerhosting.com
-
-**Code source :** https://github.com/orhan54/autonome
 
 ---
 
