@@ -1,36 +1,36 @@
-# 👋 Portfolio - Orhan CICEK
+# Portfolio - Orhan CICEK
 
 **Développeur Full Stack** — PHP • Java • Spring Boot • MySQL • HTML • CSS • JavaScript
 
 Bienvenue sur mon portfolio ! Ce site présente mon parcours, mes compétences techniques, mon CV ainsi qu'une sélection de projets réalisés au cours de mes formations et de mes expériences en développement web et logiciel.
 
-🔗 **Portfolio en ligne :** [orhan54.github.io/portfolio](https://orhan54.github.io/portfolio/)
+**Portfolio en ligne :** [orhan54.github.io/portfolio](https://orhan54.github.io/portfolio/)
 
-💻 **Code source :** [github.com/orhan54](https://github.com/orhan54)
+**Code source :** [github.com/orhan54](https://github.com/orhan54)
 
 ---
 
-## 🧭 Sommaire
+## Sommaire
 
-- [À propos](#-à-propos)
-- [Aperçu du portfolio](#-aperçu-du-portfolio)
-- [Projets](#-projets)
+- [À propos](#à-propos)
+- [Aperçu du portfolio](#aperçu-du-portfolio)
+- [Projets](#projets)
   - [1. Kebab O'Delices — Site vitrine et menu interactif](#1-kebab-odelices--site-vitrine-et-menu-interactif)
   - [2. Vacances — Application Full Stack](#2-vacances--application-full-stack)
   - [3. Mon CV](#3-mon-cv)
   - [4. Site pizzeria](#4-site-pizzeria)
   - [5. Calculatrice](#5-calculatrice)
   - [6. Site de supercars](#6-site-de-supercars)
-- [Technologies et compétences](#-technologies-et-compétences)
-- [Architecture et conception](#-architecture-et-conception)
-- [DevOps, CI/CD et qualité](#-devops-cicd-et-qualité)
-- [Structure du dépôt](#-structure-du-dépôt)
-- [Installation et lancement](#-installation-et-lancement)
-- [Contact](#-contact)
+- [Technologies et compétences](#technologies-et-compétences)
+- [Architecture et conception](#architecture-et-conception)
+- [DevOps, CI/CD et qualité](#devops-cicd-et-qualité)
+- [Structure du dépôt](#structure-du-dépôt)
+- [Installation et lancement](#installation-et-lancement)
+- [Contact](#contact)
 
 ---
 
-## 🎯 À propos
+## À propos
 
 Je m'appelle **Orhan CICEK** et je code depuis 2023.
 
@@ -46,7 +46,7 @@ Mon objectif est de continuer à développer mes compétences et d'évoluer sur 
 
 ---
 
-## 🖼️ Aperçu du portfolio
+## Aperçu du portfolio
 
 Voici un aperçu de la page d'accueil de mon portfolio :
 
@@ -56,7 +56,7 @@ Le portfolio présente mon parcours, mes compétences techniques et plusieurs r�
 
 ---
 
-## 📂 Projets
+## Projets
 
 ### 1. Kebab O'Delices — Site vitrine et menu interactif
 
@@ -168,7 +168,7 @@ Le projet est principalement orienté intégration HTML/CSS et mise en valeur du
 
 ---
 
-## 🛠️ Technologies et compétences
+## Technologies et compétences
 
 Les technologies suivantes ont été abordées et utilisées au cours de mes formations et de mes projets.
 
@@ -207,7 +207,7 @@ Les technologies suivantes ont été abordées et utilisées au cours de mes for
 
 ---
 
-## 🏗️ Architecture et conception
+## Architecture et conception
 
 Les principes et concepts abordés dans mes projets et formations comprennent :
 
@@ -220,7 +220,7 @@ Les principes et concepts abordés dans mes projets et formations comprennent :
 
 ---
 
-## ⚙️ DevOps, CI/CD et qualité
+## DevOps, CI/CD et qualité
 
 J'ai également découvert et utilisé différents outils permettant d'aborder l'automatisation des processus de développement, les tests et le contrôle de la qualité du code.
 
@@ -246,7 +246,7 @@ Un pipeline CI/CD peut notamment intégrer les étapes suivantes :
 
 ---
 
-## 📁 Structure du dépôt
+## Structure du dépôt
 
 ```text
 portfolio/
@@ -289,7 +289,7 @@ portfolio/
 
 ---
 
-## ⚙️ Installation et lancement
+## Installation et lancement
 
 Pour consulter le portfolio et les projets front-end, aucune installation particulière n'est nécessaire.
 
@@ -327,7 +327,7 @@ http://localhost:8000
 
 ---
 
-## 📬 Contact
+## Contact
 
 - **Email :** [orhancicek1985@gmail.com](mailto:orhancicek1985@gmail.com)
 - **GitHub :** [github.com/orhan54](https://github.com/orhan54)
@@ -337,5 +337,5 @@ http://localhost:8000
 ---
 
 <p align="center">
-  Fait avec ❤️ par Orhan CICEK
+  Fait par Orhan CICEK
 </p>
